@@ -43,7 +43,7 @@ The development kit should be installed.
 sudo apt install python3.9-dev
 ```
 
-- OpenSlide (optional)
+- OpenSlide
 
 OpenSlide is a library to read slides. See the installation guide in https://github.com/openslide/openslide .
 
