@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "hms2"
-version = "0+localr"
+version = "2.0.0"
 description = "Another annotation-free whole-slide training approach to pathological classification."
 license = "CC BY-NC-SA 4.0"
 authors = [ "Chi-Chung Chen <chenchc@aetherai.com>",]
@@ -66,10 +66,6 @@ addopts = [ "--ignore=hms2/pipeline/test_emb.py",]
 [tool.poetry.dependencies.rpy2]
 version = "^3.5.3"
 optional = true
-
-[tool.poetry.dependencies.pilot-sectioning]
-version = "^1.1.2"
-source = "DYSK_Labs"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.3.0"

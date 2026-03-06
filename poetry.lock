@@ -2575,17 +2575,6 @@ files = [
 ]
 
 [[package]]
-name = "more-itertools"
-version = "9.0.0"
-description = "More routines for operating on iterables, beyond itertools"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "more-itertools-9.0.0.tar.gz", hash = "sha256:5a6257e40878ef0520b1803990e3e22303a41b5714006c32a3fd8304b26ea1ab"},
-    {file = "more_itertools-9.0.0-py3-none-any.whl", hash = "sha256:250e83d7e81d0c87ca6bd942e6aeab8cc9daa6096d12c5308f3f92fa5e5c1f41"},
-]
-
-[[package]]
 name = "mpi4py"
 version = "4.1.1"
 description = "Python bindings for MPI"
@@ -3042,48 +3031,29 @@ numpy = [
 ]
 
 [[package]]
-name = "opencv-python-headless"
-version = "4.8.1.78"
-description = "Wrapper package for OpenCV python bindings."
+name = "openslide-python"
+version = "1.4.2"
+description = "Python interface to OpenSlide"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.9"
 files = [
-    {file = "opencv-python-headless-4.8.1.78.tar.gz", hash = "sha256:bc7197b42352f6f865c302a49140b889ec7cd957dd697e2d7fc016ad0d3f28f1"},
-    {file = "opencv_python_headless-4.8.1.78-cp37-abi3-macosx_10_16_x86_64.whl", hash = "sha256:f3a33f644249f9ce1c913eac580e4b3ef4ce7cab0a71900274708959c2feb5e3"},
-    {file = "opencv_python_headless-4.8.1.78-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:2c7d45721df9801c4dcd34683a15caa0e30f38b185263fec04a6eb274bc720f0"},
-    {file = "opencv_python_headless-4.8.1.78-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3b6bd6e1132b6f5dcb3a5bfe30fc4d341a7bfb26134da349a06c9255288ded94"},
-    {file = "opencv_python_headless-4.8.1.78-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:58e70d2f0915fe23e02c6e405588276c9397844a47d38b9c87fac5f7f9ba2dcc"},
-    {file = "opencv_python_headless-4.8.1.78-cp37-abi3-win32.whl", hash = "sha256:382f8c7a6a14f80091284eecedd52cee4812231ee0eff1118592197b538d9252"},
-    {file = "opencv_python_headless-4.8.1.78-cp37-abi3-win_amd64.whl", hash = "sha256:0a0f1e9f836f7d5bad1dd164694944c8761711cbdf4b36ebbd4815a8ef731079"},
+    {file = "openslide_python-1.4.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:b40ace8cb584a2d15bc563eb177a2b01d526f679f08d4d3d296f89edb650e8f4"},
+    {file = "openslide_python-1.4.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f03407e215d10b2282e9354dbeb724b3db119266dca87489d320d6285e18f259"},
+    {file = "openslide_python-1.4.2-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:9667942664fe3406c11b053a29c8327b6cc29de3b60840b8afe8cd490070b9e0"},
+    {file = "openslide_python-1.4.2-cp310-cp310-win_amd64.whl", hash = "sha256:281b7eb916605c1914f6bdea47696615a764ab236709acfc847e03bf5a807225"},
+    {file = "openslide_python-1.4.2-cp311-abi3-macosx_10_9_universal2.whl", hash = "sha256:0f459f0e071048a5e3cafbf814fdac92da55df9b07730a832b54b99191f8a612"},
+    {file = "openslide_python-1.4.2-cp311-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:b24566c2167d5909b4f54d5ee53c1caada5ec1aa14921a19de67a694ed988765"},
+    {file = "openslide_python-1.4.2-cp311-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:69cc23d608120bc528399d006c47501ac5e390770d4d5090800defd51be1b595"},
+    {file = "openslide_python-1.4.2-cp311-abi3-win_amd64.whl", hash = "sha256:e53cfb967c0987c76a9b890bb9551e238b12a99d947362434a08d4aa40ba1739"},
+    {file = "openslide_python-1.4.2-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:2f246074995148e010eea8a7ad6028d0467f56095ad62696db548f103ccea630"},
+    {file = "openslide_python-1.4.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9a0f5efcf6fb494710ede6083d78510b273b4f63e8cc4536c20bf7242aa3c4d4"},
+    {file = "openslide_python-1.4.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:26c72a652c8f64209f215e9453393a65725400b9779994e4fa0bb1d12a212a2e"},
+    {file = "openslide_python-1.4.2-cp39-cp39-win_amd64.whl", hash = "sha256:c9b7e306fcbaaa1f8aa336ffb615f4349e2f5bbe1b6caa03a74980d7fbb7f0ad"},
+    {file = "openslide_python-1.4.2.tar.gz", hash = "sha256:610d7a71552afe7be33038c10d8a2b20b9824ca2836710870e81f193257411bc"},
 ]
 
 [package.dependencies]
-numpy = {version = ">=1.23.5", markers = "python_version >= \"3.11\""}
-
-[[package]]
-name = "opencv-python-headless"
-version = "4.11.0.86"
-description = "Wrapper package for OpenCV python bindings."
-optional = false
-python-versions = ">=3.6"
-files = [
-    {file = "opencv-python-headless-4.11.0.86.tar.gz", hash = "sha256:996eb282ca4b43ec6a3972414de0e2331f5d9cda2b41091a49739c19fb843798"},
-    {file = "opencv_python_headless-4.11.0.86-cp37-abi3-macosx_13_0_arm64.whl", hash = "sha256:48128188ade4a7e517237c8e1e11a9cdf5c282761473383e77beb875bb1e61ca"},
-    {file = "opencv_python_headless-4.11.0.86-cp37-abi3-macosx_13_0_x86_64.whl", hash = "sha256:a66c1b286a9de872c343ee7c3553b084244299714ebb50fbdcd76f07ebbe6c81"},
-    {file = "opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6efabcaa9df731f29e5ea9051776715b1bdd1845d7c9530065c7951d2a2899eb"},
-    {file = "opencv_python_headless-4.11.0.86-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0e0a27c19dd1f40ddff94976cfe43066fbbe9dfbb2ec1907d66c19caef42a57b"},
-    {file = "opencv_python_headless-4.11.0.86-cp37-abi3-win32.whl", hash = "sha256:f447d8acbb0b6f2808da71fddd29c1cdd448d2bc98f72d9bb78a7a898fc9621b"},
-    {file = "opencv_python_headless-4.11.0.86-cp37-abi3-win_amd64.whl", hash = "sha256:6c304df9caa7a6a5710b91709dd4786bf20a74d57672b3c31f7033cc638174ca"},
-]
-
-[package.dependencies]
-numpy = [
-    {version = ">=1.21.0", markers = "python_version == \"3.9\" and platform_system == \"Darwin\" and platform_machine == \"arm64\""},
-    {version = ">=1.19.3", markers = "platform_system == \"Linux\" and platform_machine == \"aarch64\" and python_version >= \"3.8\" and python_version < \"3.10\" or python_version > \"3.9\" and python_version < \"3.10\" or python_version >= \"3.9\" and platform_system != \"Darwin\" and python_version < \"3.10\" or python_version >= \"3.9\" and platform_machine != \"arm64\" and python_version < \"3.10\""},
-    {version = ">=1.23.5", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
-    {version = ">=1.21.4", markers = "python_version >= \"3.10\" and platform_system == \"Darwin\" and python_version < \"3.11\""},
-    {version = ">=1.21.2", markers = "platform_system != \"Darwin\" and python_version >= \"3.10\" and python_version < \"3.11\""},
-]
+Pillow = "*"
 
 [[package]]
 name = "orjson"
@@ -3345,27 +3315,6 @@ files = [
 [package.extras]
 docs = ["furo", "olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-inline-tabs", "sphinx-issues (>=3.0.1)", "sphinx-removed-in", "sphinxext-opengraph"]
 tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
-
-[[package]]
-name = "pilot-sectioning"
-version = "1.1.2"
-description = "Automatically identifying tissue sections given a WSI."
-optional = false
-python-versions = ">=3.9,<4.0"
-files = [
-    {file = "pilot_sectioning-1.1.2-py3-none-any.whl", hash = "sha256:e3a2a4696fe5106e58f612131e208347d0f3705fbf78c3fcd12100b11c0f8ae9"},
-    {file = "pilot_sectioning-1.1.2.tar.gz", hash = "sha256:a3c718d97c816ac7f7141e9c22533125c1c42dfe77f229a7b3635ac2ba0f0b3d"},
-]
-
-[package.dependencies]
-numpy = ">=1.23.4,<2.0.0"
-opencv-python = ">=4.6.0.66,<5.0.0.0"
-scikit-image = ">=0.19.3,<0.20.0"
-
-[package.source]
-type = "legacy"
-url = "http://proxpi.aetherai.local/index"
-reference = "DYSK_Labs"
 
 [[package]]
 name = "platformdirs"
@@ -3925,94 +3874,6 @@ ipython = ["ipython (>=2.0)"]
 plot = ["matplotlib"]
 s3 = ["boto3 (>=1.2.4)"]
 test = ["boto3 (>=1.2.4)", "hypothesis", "packaging", "pytest (>=2.8.2)", "pytest-cov (>=2.2.0)", "shapely"]
-
-[[package]]
-name = "reader-alchemy"
-version = "7.5.3"
-description = "Python API for 2D image readers"
-optional = false
-python-versions = ">=3.9"
-files = [
-    {file = "reader_alchemy-7.5.3-py3-none-any.whl", hash = "sha256:772ed69358c65951fa2c0fb5ea344d28cda311eccd81dcb986928a937126cf28"},
-    {file = "reader_alchemy-7.5.3.tar.gz", hash = "sha256:f06172b14b6ed8b7f1cb19110c3e2e31b301c6e7343d72ff6aa6bfdcae357999"},
-]
-
-[package.dependencies]
-more-itertools = ">=8.8.0"
-numpy = "*"
-opencv-python-headless = ">=4.5.2,<5"
-pillow = "*"
-typing-extensions = ">=4.4.0"
-
-[package.extras]
-cli = ["imgcat (>=0.5.0)", "typer (>=0.19.2)"]
-testing = ["psutil (>=5.8.0)", "pytest", "pytest-fetch (>=2.0.0,<3)", "pytest-order (>=1.0.0,<2)", "pytest-repeat (>=0.9.1,<0.10)"]
-
-[package.source]
-type = "legacy"
-url = "http://proxpi.aetherai.local/index"
-reference = "DYSK_Labs"
-
-[[package]]
-name = "reader-alchemy-isyntax"
-version = "4.1.0"
-description = "Extension that bundles philips sdk and is compatible to all python version"
-optional = false
-python-versions = ">=3.9,<4.0"
-files = [
-    {file = "reader_alchemy_isyntax-4.1.0-cp39-cp39-manylinux_2_31_x86_64.whl", hash = "sha256:78be960f0d68c9e44ddb3eac1cdc692f121cf51918da7603c15d297b2106748e"},
-    {file = "reader_alchemy_isyntax-4.1.0.tar.gz", hash = "sha256:1131072827783d8fc3b5a468cd0d171f0feff1135eddb89946e6867a19a284e5"},
-]
-
-[package.dependencies]
-numpy = "*"
-reader-alchemy = ">=7.5.3,<8.0.0"
-
-[package.source]
-type = "legacy"
-url = "http://proxpi.aetherai.local/index"
-reference = "DYSK_Labs"
-
-[[package]]
-name = "reader-alchemy-ndpread"
-version = "5.2.0"
-description = ""
-optional = false
-python-versions = ">=3.9,<4.0"
-files = [
-    {file = "reader_alchemy_ndpread-5.2.0-cp39-cp39-manylinux_2_36_x86_64.whl", hash = "sha256:ee05c20d6152e29776377a4dc209bd7399b84660b913da98d276e9359c3b4e88"},
-    {file = "reader_alchemy_ndpread-5.2.0.tar.gz", hash = "sha256:e5a695156b5ae56e1bedd7766a4844a256643d08d5c1d920b95f031d0eafd647"},
-]
-
-[package.dependencies]
-numpy = "*"
-reader-alchemy = ">=7.3.0,<8.0.0"
-tifffile = ">=2024.08.30"
-
-[package.source]
-type = "legacy"
-url = "http://proxpi.aetherai.local/index"
-reference = "DYSK_Labs"
-
-[[package]]
-name = "reader-alchemy-openslide"
-version = "3.1.0"
-description = "Python binding to the OpenSlide library using pybind11."
-optional = false
-python-versions = ">=3.9,<4.0"
-files = [
-    {file = "reader_alchemy_openslide-3.1.0-cp39-cp39-manylinux_2_36_x86_64.whl", hash = "sha256:7a498e1cff559d5d99e6c4a4bddbc6f3879d236590e301c9764f7aa396af137b"},
-    {file = "reader_alchemy_openslide-3.1.0.tar.gz", hash = "sha256:4c623b92a674c2a51942f055866ccaab600835dc0a93cb7ddff5cc6910ddb405"},
-]
-
-[package.dependencies]
-numpy = "*"
-reader-alchemy = ">=7.4.1,<8.0.0"
-
-[package.source]
-type = "legacy"
-url = "http://proxpi.aetherai.local/index"
-reference = "DYSK_Labs"
 
 [[package]]
 name = "requests"
@@ -5027,4 +4888,4 @@ rpy2 = ["rpy2"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "8a2a921cafce0da740d6da1221f5c8396c8d7ee798087fd0c7439b2e6d4f7021"
+content-hash = "c56843b257af8710fcafe2c4b835fcc6a3b0f613968a3a1b9fa632ff15fcab5c"
