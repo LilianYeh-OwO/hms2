@@ -81,6 +81,3 @@ toml = "^0.10.2"
 wemake-python-styleguide = ">=0.17"
 pytest-cov = "*"
 
-[tool.poetry.group.dev.dependencies.dvc]
-version = "^2.56.0"
-extras = [ "s3",]
