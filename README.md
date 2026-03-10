@@ -174,8 +174,6 @@ A training subdataset is defined as:
 | SLIDE_DIR                  | Directory containing all the slide image files (can be soft links).
 | SLIDE_FILE_EXTENSION       | File extension. (e.g., `".ndpi"`).
 | CONTOUR_DIR                | Directory containing contour description files. Set `NULL` (default) when using slide-level labels.
-| TO_SRGB_LINEAR             | Whether to convert the image to sRGB linear space. (default: `False`)
-| ALLOW_SRGB_FAILURE         | Whether to allow failed case in convert the image to sRGB linear space. (default: `False`)
 
 ### 5. Set Up Test Configurations
 
@@ -204,8 +202,6 @@ Each test subdataset config is comprised of:
 | SLIDE_DIR                  | Directory containing the test slide image files (can be soft links).
 | SLIDE_FILE_EXTENSION       | File extension of test slides. (e.g., `".ndpi"`).
 | CONTOUR_DIR                | Directory containing contour description files of test slides. Set `NULL` (default) when using slide-level labels.
-| TO_SRGB_LINEAR             | Whether to convert the image to sRGB linear space. (default: `False`)
-| ALLOW_SRGB_FAILURE         | Whether to allow failed case in convert the image to sRGB linear space. (default: `False`)
 
 **Note 1: If you have multiple test datasets and would like to evaluate them seperately, create multiple test configs. If not, specify them in `TEST_DATASET_CONFIGS` of one single config file.**
 
