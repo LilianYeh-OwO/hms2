@@ -184,14 +184,11 @@ Each test YAML config contains the following fields: (See `projects/Camelyon16/t
 | Field                      | Description
 | -------------------------- | ---------------------------------------------------------------------------------------------
 | TRAIN_CONFIG_PATH          | Path to the training config.
-|                            |
 | TEST_RESULT_PATH           | Path to store the model predictions after testing in a JSON format. (default: `${RESULT_DIR}/test_result.json`)
 | VIZ_RESULT_DIR             | Folder to store prediction maps. (default: `${RESULT_DIR}/viz_results`)
 | TEST_EVENT_LOG_PATH        | Path to store the test event log. (default: `${RESULT_DIR}/test_event_log.json`)
 | VIZ_EVENT_LOG_PATH         | Path to store the visualization event log. (default: `${RESULT_DIR}/viz_event_log.json`)
-|                            |
 | TEST_DATASET_CONFIGS       | A list of test subdatasets (see below).
-|                            |
 | VIZ_POOL_USE               | Pooling method for visualization. (default: `"cam"`)
 
 Each test subdataset config is comprised of:
